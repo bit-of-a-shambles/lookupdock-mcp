@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.lookupdock/checks",
+  "title": "LookupDock",
+  "description": "Phone, email and IP signals for signup checks, with shared credits and explicit uncertainty.",
+  "version": "1.0.0",
+  "websiteUrl": "https://lookupdock.com/?ref=mcp-registry",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lookupdock.com/mcp"
+    }
+  ]
+}

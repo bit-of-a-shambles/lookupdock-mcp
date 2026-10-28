@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "lookupdock": {
+      "url": "https://lookupdock.com/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_LOOKUPDOCK_KEY"
+      }
+    }
+  }
+}
