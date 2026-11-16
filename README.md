@@ -27,6 +27,7 @@ Client configuration formats vary. [The live setup guide](https://lookupdock.com
 | `check_email` | `email` | Format, mail domain, disposable, role and free-provider signals; mailbox existence remains unknown. |
 | `check_ip` | `ip` | Location, network/hosting and Tor signals; VPN detection is unknown. |
 | `check_signup` | One or more of `email`, `phone`, `ip` | Advisory recommendation and reason codes from the available component checks. |
+| `scrub_phone` | `phone` (US) | Line type, carrier, Do Not Call and litigator listings and a callable decision. Uses 10 credits a number. Federal results require the workspace's own SAN; incomplete checks return review. |
 
 The optional `idempotency_key` supports retries under the service retention policy. Live tools consume workspace credits; initialization does not run a lookup. Check [pricing](https://lookupdock.com/pricing) before running live checks. Results include uncertainty and do not establish fraud, reachability or a person's identity. Apply your own policy to the signals and submit only data you are entitled to process.
 
