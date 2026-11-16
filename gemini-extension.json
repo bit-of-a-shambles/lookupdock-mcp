@@ -1,0 +1,10 @@
+{
+  "name": "lookupdock",
+  "version": "1.0.0",
+  "description": "Email, phone and IP checks for signups and lead lists: allow, review or block with reasons, through LookupDock's remote MCP server.",
+  "mcpServers": {
+    "lookupdock": {
+      "httpUrl": "https://lookupdock.com/mcp"
+    }
+  }
+}
