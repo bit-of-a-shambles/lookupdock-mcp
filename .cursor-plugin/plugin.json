@@ -1,0 +1,30 @@
+{
+  "name": "lookupdock",
+  "version": "1.0.0",
+  "description": "Email, phone and IP checks for signups and lead lists: allow, review or block with reasons, through LookupDock's remote MCP server.",
+  "author": {
+    "name": "LookupDock",
+    "url": "https://lookupdock.com"
+  },
+  "homepage": "https://lookupdock.com/docs/agents",
+  "repository": "https://github.com/bit-of-a-shambles/lookupdock-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "email-validation",
+    "phone-validation",
+    "ip-lookup",
+    "disposable-email",
+    "signup-fraud",
+    "lead-list-cleaning",
+    "lookupdock"
+  ],
+  "mcpServers": "./.mcp.json",
+  "category": "developer-tools",
+  "tags": [
+    "mcp",
+    "validation",
+    "fraud-prevention",
+    "api"
+  ]
+}
