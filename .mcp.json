@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "lookupdock": {
+      "type": "http",
+      "url": "https://lookupdock.com/mcp"
+    }
+  }
+}
